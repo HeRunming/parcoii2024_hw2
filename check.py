@@ -29,5 +29,3 @@ for i in range(1,len(data)):
         exit(0)
 
 print("Correct")
-
-print(lines[3])

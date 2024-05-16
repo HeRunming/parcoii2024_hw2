@@ -156,7 +156,7 @@ int main(int argc, char *argv[])
     {
     outFile << std::endl;
     std::chrono::duration<double> diff = end_time - start_time;
-    outFile << "Time: " << diff.count() << " s" << std::endl;}
+    std::cout << "Time: " << diff.count() << " s" << std::endl;}
 
   // 释放内存
   free(a);

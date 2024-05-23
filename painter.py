@@ -36,3 +36,10 @@ plt.xlabel('log_N')
 plt.ylabel('Time')
 plt.title('log_N vs Time')
 plt.savefig(f'thread {numthread} log_N_vs_Time.png')
+
+
+with open(f'thread {numthread} avg_time.txt', 'w') as f:
+    for key in avg_time_map:
+        f.write(f'{2**key} {avg_time_map[key]}\n')
+
+f.close()

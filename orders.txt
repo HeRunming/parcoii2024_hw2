@@ -1,2 +1,2 @@
 For Windows:
-g++ -o par par.cpp -l msmpi -L "D:\AppGallery\mpisdkebv\Lib\x64\" -I "D:\AppGallery\mpisdkebv\Include\"
+g++ -o ft full_test.cpp -l msmpi -L "D:\AppGallery\mpisdkebv\Lib\x64\" -I "D:\AppGallery\mpisdkebv\Include\"
